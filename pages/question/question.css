@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+/* NAVBAR STYLE  */
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .right-nav {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+/* QUESTION CONTAINER STYLE  */
+.question-container {
+  background-color: var(--lynx-white);
+  width: 40rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.question-score {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem;
+}
+.question-timer {
+  border: 5px solid var(--primary-color);
+  border-radius: 50%;
+  width: min-content;
+  padding: 10px;
+  margin: 0.8rem;
+}
+.question {
+  margin: 1rem;
+}
+/* HIDING THE INPUT ELEMENT  */
+.question-card .form-input {
+  display: none;
+}
+.question-card .form-label {
+  display: block;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 10px;
+  transition: 0.5s ease-in-out;
+}
+/* MAKING THE LABEL SLECTED  */
+.question-card .form-input[type='radio']:checked + .form-label {
+  background-color: var(--primary-color);
+}
+.question-container .btn {
+  margin: 10px;
+}
+.outline-primary {
+  border: 1px solid var(--primary-color);
+}
