@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://starui-component-library.netlify.app/index.css"
+    />
+    <link rel="stylesheet" href="./index.css">
+    <title>AnimeQuizApp </title>
+  </head>
+  <body>
+    <!-- -------------NAVABR -------------  -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <h2>AnimeQuiz</h2>
+      </div>
+      
+      
+                                                                                                                 
+      <div class="right-nav">
+        <i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>
+        <div class="badge">
+          <img src="https://starui-component-library.netlify.app/assets/image1.jpg" class="avatar" alt="avatar-badge" />                         
+        <div class="status online"></div>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!-- MAIN CONTENT  -->
+    <main>
+      <!-- QUIZ LIST COMPONENT  -->
+      <div class="quiz-list">
+        <div class="quiz-list-title">
+          <!-- add form class and form-input to input child -->
+          <h2>Featured Quiz</h2>
+          <form class="form">
+            <input type='text' class="form-input small-text" placeholder="Search Quiz">
+          </form> 
+        </div>
+        <div class="quiz-list-container">
+          <!-- use card class on the parent element -->
+
+          <div class='card'>
+            <img id="card-image" src='https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/10/19/11/attack-on-titan.jpg?quality=75&width=982&height=726&auto=webp'>
+            <h3>Attack on Titan</h3>
+            <p class="small-text"> Do you know Eren as well as Mikasa. Take this quiz to find out. Tatakae!!!</p>
+            <div class="card-footer">
+              <button class="btn primary-btn">Take Quiz</button>
+              <button class="btn btn-outline-primary">Show Score</button>
+            </div>
+            </div>
+          <div class='card'>
+            <img id="card-image" src='https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/11/One-Piece-Character-Guide.jpg?q=50&fit=contain&w=767&h=384&dpr=1.5'>
+            <h3>One Piece</h3>
+            <p class="small-text">Follow Luffy on his journey to become king of pirates </p>
+            <div class="card-footer">
+              <button class="btn primary-btn">Take Quiz</button>
+              <button class="btn btn-outline-primary">Show Score</button>
+            </div>
+          </div>                                                                                                         
+          <div class='card'>
+            <img id="card-image" src='https://cdn.vox-cdn.com/thumbor/YvZhDyaB3_YElvQGk9C0hmwTywY=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19721018/Tanjiro__Demon_Slayer_.png'>
+            <h3>Demon Slayer</h3>
+            <p class="small-text"> Demon Slayer follows teenage Tanjiro Kamado, who strives to become a demon slayer .</p>
+            <div class="card-footer">
+              <button class="btn primary-btn">Take Quiz</button>
+              <button class="btn btn-outline-primary">Show Score</button>
+            </div>
+          </div>                                                                                                         
+        </div>
+      </div>
+      <!-- LEADERBOARD COMPONENT  -->
+      <div class="leaderboard-list">
+        <div class="leaderboard-title">
+          <h2>Leader Board</h2>
+        </div>
+        <div class="leaderboard-container">
+          <div class="leaderboard-card">
+            <p>1</p>
+            <img class='avatar' src="https://starui-component-library.netlify.app/assets/image1.jpg" alt="avatar1">
+            <p>Susan Sujatha</p>
+           
+
+            <div class="read-only-rating">
+              <span class="small-text">9</span>
+              <i class="far fa-star"></i>
+            </div>
+                                                                                                                        
+          </div>
+          <div class="leaderboard-card">
+            <p>2</p>
+            <img class='avatar' src="https://starui-component-library.netlify.app/assets/image1.jpg" alt="avatar1">
+            <p>Kevin Solomon</p>
+            
+
+            <div class="read-only-rating">
+              <span class="small-text">9</span>
+              <i class="far fa-star"></i>
+            </div>
+                                                                                                                        
+          </div>
+          <div class="leaderboard-card">
+            <p>3</p>
+            <img class='avatar' src="https://starui-component-library.netlify.app/assets/image1.jpg" alt="avatar1">
+            <p>Chethan</p>
+            
+
+            <div class="read-only-rating">
+              <span class="small-text">9</span>
+              <i class="far fa-star"></i>
+            </div>
+                                                                                                                        
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <!-- FOOTER COMPONENT  -->
+    <footer class="footer">
+      Made with code by Kevin Solomon
+      <div class="footer-links">
+        <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+        <a href=""><i class="fab fa-github fa-lg"></i></a>
+        <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
+      </div>
+      <div>© 2021 KevinSolomon</div>
+    </footer>
+    <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
+  </body>
+</html>
