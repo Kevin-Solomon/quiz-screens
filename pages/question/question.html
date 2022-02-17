@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://starui-component-library.netlify.app/index.css"
+    />
+    <link rel="stylesheet" href="./question.css">
+
+    <title>AnimeQuizApp </title>
+  </head>
+  <body>
+    <!-- -------------NAVABR -------------  -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <h2>AnimeQuiz</h2>
+      </div>
+      
+      
+                                                                                                                 
+      <div class="right-nav">
+        <i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>
+        <div class="badge">
+          <img src="https://starui-component-library.netlify.app/assets/image1.jpg" class="avatar" alt="avatar-badge" />                         
+        <div class="status online"></div>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!-- MAIN CONTENT  -->
+    <main class="center-container">
+      <!-- QUESTION CONTAINER STYLE STARTS HERE   -->
+      <div class="question-container">
+        <h2 class="question-title text-center">One Piece</h2>
+        <div class="question-timer">
+          15
+        </div>
+        <div class="question-score">
+          <p>Question 1 / 5</p>
+          <p>Score : 10</p>
+        </div>
+        <!-- QUESTION CARD STYLE STARTS HERE  -->
+        <div class="question-card">
+          <h3 class="question text-center">Which Devil Fruit did Luffy have ?</h3>
+          <form class="form">
+            <input name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+            <label class="form-label" for="answer-1">Gomu Gomu no Mi</label>
+            <input  id="answer-2" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+            <label class="form-label" for="answer-2">Pika Pika no Mi</label>
+            <input id="answer-3" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+            <label class="form-label" for="answer-3">Bara Bara no Mi</label>
+            <input id="answer-4" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+            <label class="form-label" for="answer-4">Yami Yami no Mi</label>
+          </form> 
+                                                                                                                          
+        </div>
+        <button class="btn outline-primary">Submit</button>
+      </div>
+    </main>
+    
+    <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
+  </body>
+</html>
