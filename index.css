@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+/* NAVBAR STYLE  */
 .navbar {
   align-items: center;
   justify-content: space-between;
@@ -11,10 +12,12 @@
   align-items: center;
   gap: 10px;
 }
+/* QUIZ LIST STYLE  */
 .quiz-list-title {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 .quiz-list {
   padding: 1rem;
@@ -33,6 +36,7 @@
 .quiz-list-container > * {
   margin: 1rem;
 }
+/* LEADERBOARD STYLE  */
 .leaderboard-list {
   padding: 1rem;
 }
