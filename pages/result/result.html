@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://starui-component-library.netlify.app/index.css"
+    />
+    <link rel="stylesheet" href="../question/question.css">
+    <link rel="stylesheet" href="./result.css">
+
+    <title>AnimeQuizApp </title>
+  </head>
+  <body>
+    <!-- -------------NAVABAR -------------  -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <h2>AnimeQuiz</h2>
+      </div>
+      
+      
+                                                                                                                 
+      <div class="right-nav">
+        <i class="fa fa-sign-out fa-lg" aria-hidden="true"></i>
+        <div class="badge">
+          <img src="https://starui-component-library.netlify.app/assets/image1.jpg" class="avatar" alt="avatar-badge" />                         
+        <div class="status online"></div>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!-- MAIN CONTENT  -->
+    <main class="center-container">
+      <!-- SUMMARY CONTAINER  -->
+      <section class="summary-container">
+        <!-- PROFILE CONTAINER  -->
+        <article class="profile">
+          <div class="profile-card">
+            <img class='avatar' src="https://starui-component-library.netlify.app/assets/image1.jpg" alt="avatar1">
+            <p>Kevin Solomon</p>
+            <i class="fas fa-share share-icon"></i>
+          </div>
+        </article>
+        <!-- ACCURACY CONTAINER  -->
+        <article>
+          <p class="accuracy-title">Accuracy</p>
+          <div class="accuracy-bar">
+            <div class="accuracy-number">100%</div>
+          </div>
+        </article>
+        <!-- SCORE CONTAINER  -->
+        <article class="score">
+          <div class="score-display">
+            <p>Score</p>
+            <p>10000</p>
+          </div>
+          <p><i class='fas fa-coins'></i></i></p>
+        </article>
+        <!-- ACTION BUTTON CONTAINER  -->
+        <article class="action-container">
+          <button class="btn outline-btn">Retake Quiz</button>
+          <button class="btn outline-btn">Find New Quiz</button>
+        </article>
+        <!-- PERFORMANCE CONTAINER  -->
+        <article class="performance-container">
+          <p class="text-center">Performance Status</p>
+          <div class="grid-layout">
+            <div class="performance-card-container correct-card">
+              
+              <div class="correct-content">
+                <p>11</p>
+                <p>Correct</p>
+              </div>
+            </div>
+            <div class="performance-card-container incorrect-card">
+              
+              <div class="correct-content">
+                <p>0</p>
+                <p>Incorrect</p>
+              </div>
+            </div>
+            <div class="performance-card-container timer-card">
+             
+              <div class="correct-content">
+                <p>5.8 sec</p>
+                <p>Time / Question</p>
+              </div>
+            </div>
+            <div class="performance-card-container streak-card">
+              
+              <div class="correct-content">
+                <p>8</p>
+                <p>Streak</p>
+              </div>
+            </div>
+            
+          </div>
+          </article>
+          <article class="review-question">
+            <h3 class="text-center">Review Question</h3>
+            <div class="question-card">
+              <h4 class="question text-center">Which Devil Fruit did Luffy have ?</h4>
+              <form class="form">
+                <input name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label" for="answer-1">Gomu Gomu no Mi</label>
+                <input  id="answer-2" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label" for="answer-2">Pika Pika no Mi</label>
+                <input checked="true" id="answer-3" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label" for="answer-3">Bara Bara no Mi</label>
+                <input id="answer-4" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label" for="answer-4">Yami Yami no Mi</label>
+              </form> 
+                                                                                                                              
+            </div>
+            <div class="question-card">
+              <h4 class="question text-center">Which Devil Fruit did Luffy have ?</h4>
+              <form class="form">
+                <input name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label correct-answer" for="answer-1">Gomu Gomu no Mi</label>
+                <input  id="answer-2" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label" for="answer-2">Pika Pika no Mi</label>
+                <input checked="true" id="answer-3" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label" for="answer-3">Bara Bara no Mi</label>
+                <input id="answer-4" name="one-piece" type='radio' id="answer-1" class="form-input small-text" placeholder="Please enter your name">
+                <label class="form-label" for="answer-4">Yami Yami no Mi</label>
+              </form> 
+                                                                                                                              
+            </div>
+          </article>
+        </article>
+      </section>
+    </main>
+    
+    <script src="https://kit.fontawesome.com/ba728779ac.js" crossorigin="anonymous"></script>
+  </body>
+</html>

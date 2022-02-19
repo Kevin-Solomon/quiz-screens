@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+}
+/* NAVBAR STYLE  */
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .right-nav {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+/* CENTER CONTAINER  */
+.center-container {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 350px;
+  height: min-content;
+}
+.summary-container {
+  background-color: var(--lynx-white);
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+/* EVERY ARTICLE IN CONTAINER GIVEN MARGIN  */
+.summary-container > * {
+  margin-bottom: 0.625rem;
+}
+/* PROFILE CARD STYLE  */
+.profile-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.share-icon {
+  padding: 0.625rem;
+}
+/* ACCURACY CARD STYLE  */
+.accuracy-title {
+  padding: 0.625rem;
+}
+.accuracy-bar {
+  background-color: var(--success-color);
+  margin: 0.625rem;
+  border-radius: 5px;
+  position: relative;
+  height: 1.5rem;
+}
+.accuracy-number {
+  position: absolute;
+  /* z-index: -1; */
+  right: 0;
+  background-color: white;
+  bottom: -20px;
+}
+.score {
+  display: flex;
+  padding: 0.625rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-container {
+  display: flex;
+  flex-direction: column;
+}
+/* 2*2 GRID LAYOUT  */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(230px, 1fr));
+  grid-template-rows: repeat(2, minmax(90px, 1fr));
+  margin: 0.625rem;
+  gap: 0.625rem;
+}
+.performance-card-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  position: relative;
+}
+/* STYLES FOR DIFFERENT PERFORMANCE CARD  */
+.correct-card {
+  background-image: url('../../assets/1904674_accept_approved_check_checked_confirm_icon.svg');
+  background-repeat: no-repeat;
+  background-position: -20px 10px;
+}
+.incorrect-card {
+  background-image: url('../../assets/3672675_wrong_cancel_close_delete_error_icon.svg');
+  background-repeat: no-repeat;
+  background-position: -20px 10px;
+}
+.timer-card {
+  background-image: url('../../assets/3586375_clock_hour_timer_watch_icon.svg');
+  background-repeat: no-repeat;
+  background-position: -20px 10px;
+}
+.streak-card {
+  background-image: url('../../assets/513726_black_element_fire_icon.svg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: -60px -30px;
+}
+
+.correct-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.outline-btn {
+  border: 1px solid var(--primary-color);
+}
+.correct-answer {
+  background-color: var(--success-color);
+}
+/* MEDIA QUERY  */
+@media (max-width: 500px) {
+  .grid-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, minmax(90px, 1fr));
+    margin: 0.625rem;
+    gap: 0.625rem;
+  }
+}
